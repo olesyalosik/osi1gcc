@@ -1,0 +1,3 @@
+C:/projects/Osi1/build/CMakeFiles/osi1.dir
+C:/projects/Osi1/build/CMakeFiles/edit_cache.dir
+C:/projects/Osi1/build/CMakeFiles/rebuild_cache.dir
