@@ -2,7 +2,11 @@ cmake_minimum_required(VERSION 3.8)
 
 project(osi1lab)
 
-add_executable(osi1 main.cpp main.h reporter.cpp reporter.h creator.cpp creator.h)
+add_executable(osi1 main.cpp reporter.h creator.h employee.h)
+
+find_library(PTHREAD_LIBRARY pthread)
+
+target_link_libraries(osi1 ${PTHREAD_LIBRARY})
 
 # set c++ standard to c++98
 
